@@ -16,9 +16,9 @@ def get_rectangle_square(length: int, width: int) -> int:
 @tool
 def get_circle_square(radius: int) -> int:
     """ Рассчитать площадь круга.
-        Args:
-            radius: радиус
-        """
+    Args:
+        radius: радиус
+    """
 
     return pi * (radius ** 2)
 
